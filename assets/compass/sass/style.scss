@@ -146,6 +146,32 @@ body {
 		}
 	}
 }
+.tri-panels {
+	color: #424242;
+	margin: 0 auto;
+	display: block;
+	.panel {
+		margin: 0 auto;
+		width: 25em;
+		text-align: center;
+		@media (min-width: 960px) {
+			float: left;
+		}
+	}
+	.divider {
+		@media (min-width: 960px) {
+			border-right-style: solid;
+			border-right-width: 1px;
+			border-right-color: #cacaca;
+		}
+	}
+	p {
+		font-size: 1.5em;
+	}
+	@media (min-width: 960px) {
+		display: table;
+	}
+}
 
 /* Login Page */
 .main-login {
