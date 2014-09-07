@@ -270,15 +270,15 @@ body {
   -webkit-border-top-left-radius: 5px;
   -webkit-border-bottom-left-radius: 5px;
 }
-/* line 204, ../compass/sass/style.scss */
+/* line 203, ../compass/sass/style.scss */
 .login-portion .password:focus {
   outline: none;
 }
-/* line 205, ../compass/sass/style.scss */
+/* line 204, ../compass/sass/style.scss */
 .login-portion .enter:focus {
   outline: none;
 }
-/* line 207, ../compass/sass/style.scss */
+/* line 205, ../compass/sass/style.scss */
 .login-portion .enter {
   cursor: pointer;
   background-color: #4499EE;
@@ -293,7 +293,7 @@ body {
   -webkit-border-top-right-radius: 10px;
   -webkit-border-bottom-right-radius: 10px;
 }
-/* line 221, ../compass/sass/style.scss */
+/* line 219, ../compass/sass/style.scss */
 .login-portion .enter:hover {
   background-color: #44AAFF;
   -webkit-transition: all 500ms ease;
@@ -302,13 +302,206 @@ body {
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-/* line 229, ../compass/sass/style.scss */
+/* line 227, ../compass/sass/style.scss */
 .login-portion .enter:active {
   background-color: #4499DD;
 }
-/* line 232, ../compass/sass/style.scss */
+/* line 230, ../compass/sass/style.scss */
 .login-portion form {
   margin: 0 auto;
   display: table;
   margin-top: 1em;
+}
+
+/* FileRoom Page */
+/* line 238, ../compass/sass/style.scss */
+.sidebar-fileroom {
+  width: 20em;
+  position: fixed;
+  padding-top: 4em;
+}
+/* line 242, ../compass/sass/style.scss */
+.sidebar-fileroom .sidebar-fill-fileroom {
+  border-radius: 0.5em;
+  padding-top: 2em;
+  width: 18em;
+  margin: 0 auto;
+  background: url(../images/grey.png) repeat center center;
+}
+/* line 248, ../compass/sass/style.scss */
+.sidebar-fileroom .sidebar-fill-fileroom .logo {
+  margin: 0 auto;
+  width: 10em;
+  height: 5em;
+}
+/* line 252, ../compass/sass/style.scss */
+.sidebar-fileroom .sidebar-fill-fileroom .logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* line 257, ../compass/sass/style.scss */
+.sidebar-fileroom .sidebar-fill-fileroom .url {
+  background-color: #F2F2F2;
+  border-style: none;
+  padding: 1em;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+}
+/* line 266, ../compass/sass/style.scss */
+.sidebar-fileroom .sidebar-fill-fileroom .url:focus {
+  outline: none;
+}
+/* line 267, ../compass/sass/style.scss */
+.sidebar-fileroom .sidebar-fill-fileroom .enter:focus {
+  outline: none;
+}
+/* line 268, ../compass/sass/style.scss */
+.sidebar-fileroom .sidebar-fill-fileroom .enter {
+  cursor: pointer;
+  background-color: #4499EE;
+  color: #ECECEC;
+  border-style: none;
+  margin-left: -.5em;
+  padding: 1em;
+  padding-right: 2em;
+  padding-left: 2em;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+/* line 287, ../compass/sass/style.scss */
+.sidebar-fileroom .sidebar-fill-fileroom .enter:hover {
+  background-color: #44AAFF;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+/* line 295, ../compass/sass/style.scss */
+.sidebar-fileroom .sidebar-fill-fileroom .enter:active {
+  background-color: #4499DD;
+}
+/* line 298, ../compass/sass/style.scss */
+.sidebar-fileroom .sidebar-fill-fileroom form {
+  margin: 0 auto;
+  display: table;
+  margin-top: 1em;
+}
+/* line 303, ../compass/sass/style.scss */
+.sidebar-fileroom .sidebar-fill-fileroom .fa-input {
+  font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* line 306, ../compass/sass/style.scss */
+.sidebar-fileroom .sidebar-fill-fileroom h1 {
+  color: #424242;
+  font-size: 2em;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+/* line 312, ../compass/sass/style.scss */
+.sidebar-fileroom .sidebar-fill-fileroom h1 span {
+  font-weight: 900;
+}
+/* line 316, ../compass/sass/style.scss */
+.sidebar-fileroom .sidebar-fill-fileroom .pill-button-fileroom {
+  margin: 0 auto;
+  display: table;
+  text-decoration: none;
+  text-align: center;
+  color: #424242;
+  padding: 0.5em 0em;
+  width: 15.5em;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-style: solid;
+  border-color: #4499EE;
+  border-width: 2px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+/* line 336, ../compass/sass/style.scss */
+.sidebar-fileroom .sidebar-fill-fileroom .pill-button-fileroom:hover {
+  background-color: #44AAFF;
+  border-color: #44AAFF;
+  color: #ECECEC;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+/* line 346, ../compass/sass/style.scss */
+.sidebar-fileroom .sidebar-fill-fileroom .pill-button-fileroom:active {
+  background-color: #4499DD;
+  border-color: #4499DD;
+}
+
+/* line 353, ../compass/sass/style.scss */
+.files-fileroom {
+  left: 20em;
+  width: 100%;
+  position: fixed;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-top: 4em;
+  color: #424242;
+}
+/* line 362, ../compass/sass/style.scss */
+.files-fileroom .inline {
+  float: left;
+}
+/* line 364, ../compass/sass/style.scss */
+.files-fileroom .inline h2 {
+  margin: 0;
+}
+/* line 368, ../compass/sass/style.scss */
+.files-fileroom .files-header-fileroom {
+  height: 2em;
+  clear: both;
+}
+/* line 372, ../compass/sass/style.scss */
+.files-fileroom .files-filename-fileroom {
+  width: 12em;
+}
+/* line 375, ../compass/sass/style.scss */
+.files-fileroom .files-type-fileroom {
+  width: 10em;
+}
+/* line 378, ../compass/sass/style.scss */
+.files-fileroom .files-size-fileroom {
+  width: 8em;
+}
+/* line 381, ../compass/sass/style.scss */
+.files-fileroom .files-author-fileroom {
+  width: 10em;
+}
+/* line 384, ../compass/sass/style.scss */
+.files-fileroom .files-status-fileroom {
+  width: 12em;
+}
+/* line 387, ../compass/sass/style.scss */
+.files-fileroom .files-delete-fileroom {
+  width: 3em;
+  clear: right;
+}
+/* line 391, ../compass/sass/style.scss */
+.files-fileroom .files-entry-fileroom {
+  border-color: #DDDDDD;
+  border-top-style: solid;
+  border-top-width: 1px;
 }

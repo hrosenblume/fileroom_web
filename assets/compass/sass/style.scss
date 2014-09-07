@@ -200,10 +200,8 @@ body {
 		-webkit-border-top-left-radius: 5px;
 		-webkit-border-bottom-left-radius: 5px;
 	}
-
 	.password:focus {outline: none;}
 	.enter:focus {outline: none;}
-
 	.enter {
 		cursor:pointer;
 		background-color: #4499EE;
@@ -233,5 +231,166 @@ body {
 	   margin: 0 auto;
 	   display: table;
 	   margin-top: 1em;
+	}
+}
+
+/* FileRoom Page */
+.sidebar-fileroom {
+	width:  20em;
+	position: fixed;
+	padding-top: 4em;
+	.sidebar-fill-fileroom {
+		border-radius: 0.5em;
+		padding-top: 2em;
+		width: 18em;
+		margin: 0 auto;
+		background:url(../images/grey.png) repeat center center;
+		.logo {
+			margin: 0 auto;
+			width: 10em; 
+			height: 5em;
+			img {
+				max-width:100%; 
+				max-height:100%;
+			}
+		}
+		.url {
+			background-color: #F2F2F2;
+			border-style: none;
+			padding: 1em;
+			-moz-border-radius-topleft: 5px;
+			-moz-border-radius-bottomleft: 5px;
+			-webkit-border-top-left-radius: 5px;
+			-webkit-border-bottom-left-radius: 5px;
+		}
+		.url:focus {outline: none;}
+		.enter:focus {outline: none;}
+		.enter {
+			cursor:pointer;
+			background-color: #4499EE;
+			color: #ECECEC;
+			border-style: none;
+			margin-left: -.5em;
+			padding: 1em;
+			padding-right: 2em;
+			padding-left: 2em;
+			-moz-border-radius-topright: 10px;
+			-moz-border-radius-bottomright: 10px;
+			-webkit-border-top-right-radius: 10px;
+			-webkit-border-bottom-right-radius: 10px;
+			-webkit-transition: all 500ms ease;
+			-moz-transition: all 500ms ease;
+			-ms-transition: all 500ms ease;
+			-o-transition: all 500ms ease;
+			transition: all 500ms ease;
+		}
+		.enter:hover {
+			background-color: #44AAFF;
+			-webkit-transition: all 500ms ease;
+			-moz-transition: all 500ms ease;
+			-ms-transition: all 500ms ease;
+			-o-transition: all 500ms ease;
+			transition: all 500ms ease;
+		}
+		.enter:active {
+			background-color: #4499DD;
+		}
+		form{
+		    margin: 0 auto;
+		    display: table;
+			margin-top: 1em;
+		}
+		.fa-input {
+			font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		}
+		h1 {
+			color: #424242;
+			font-size: 2em;
+			font-weight: 400;
+			text-align: center;
+			margin: 0;
+			span {
+				font-weight: 900;
+			}
+		}
+		.pill-button-fileroom {
+			margin: 0 auto;
+		    display: table;
+			text-decoration: none;
+			text-align: center;
+			color: #424242;
+			padding: 0.5em 0em;
+			width: 15.5em;
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-style: solid;
+			border-color: #4499EE;
+			border-width: 2px;
+			-webkit-transition: all 500ms ease;
+			-moz-transition: all 500ms ease;
+			-ms-transition: all 500ms ease;
+			-o-transition: all 500ms ease;
+			transition: all 500ms ease;
+		}
+		.pill-button-fileroom:hover {
+			background-color: #44AAFF;
+			border-color: #44AAFF;
+			color: #ECECEC;
+			-webkit-transition: all 500ms ease;
+			-moz-transition: all 500ms ease;
+			-ms-transition: all 500ms ease;
+			-o-transition: all 500ms ease;
+			transition: all 500ms ease;
+		}
+		.pill-button-fileroom:active {
+			background-color: #4499DD;
+			border-color: #4499DD;
+		}
+	}
+}
+
+.files-fileroom {
+	left: 20em;
+	width: 100%;
+	position: fixed;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	padding-top: 4em;
+	color: #424242;
+	.inline {
+		float: left;
+		h2 {
+			margin: 0;
+		}
+	}
+	.files-header-fileroom {
+		height: 2em;
+		clear: both;
+	}
+	.files-filename-fileroom {
+		width: 12em;
+	}
+	.files-type-fileroom {
+		width: 10em;
+	}
+	.files-size-fileroom {
+		width: 8em;
+	}
+	.files-author-fileroom {
+		width: 10em;
+	}
+	.files-status-fileroom {
+		width: 12em;
+	}
+	.files-delete-fileroom {
+		width: 3em;
+		clear: right;
+	}
+	.files-entry-fileroom {
+		border-color: #DDDDDD;
+		border-top-style: solid;
+		border-top-width: 1px;
 	}
 }
