@@ -205,7 +205,12 @@ body {
 
 .footer {
 	height: 5em;
-	background-color: red;
+	background-color: #C7C7C7;
+	color: #424242;
+	text-decoration: none;
+	a:link, a:visited, a:hover {
+		color: #4499EE;
+	}
 }
 
 /* Login Page */
