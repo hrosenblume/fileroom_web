@@ -160,7 +160,7 @@ body {
 .content .center-attention {
   margin: 0 auto;
   padding: 1em;
-  max-width: 400px;
+  max-width: 960px;
   color: #424242;
 }
 @media (min-width: 640px) {
@@ -175,83 +175,124 @@ body {
   /* line 118, ../compass/sass/style.scss */
   .content .center-attention {
     margin-bottom: 6em;
-    max-width: 500px;
   }
 }
-/* line 132, ../compass/sass/style.scss */
+/* line 131, ../compass/sass/style.scss */
 .content .center-attention h1 {
   margin-bottom: 0em;
-  text-align: left;
+  text-align: center;
   font-size: 2em;
-  font-weight: 900;
+  font-weight: 300;
 }
 @media (min-width: 640px) {
-  /* line 132, ../compass/sass/style.scss */
+  /* line 131, ../compass/sass/style.scss */
   .content .center-attention h1 {
     font-size: 2.5em;
   }
 }
 @media (min-width: 960px) {
-  /* line 132, ../compass/sass/style.scss */
+  /* line 131, ../compass/sass/style.scss */
   .content .center-attention h1 {
     font-size: 3em;
   }
 }
-/* line 144, ../compass/sass/style.scss */
-.content .center-attention p {
-  font-size: 1.5em;
-}
 
-/* line 149, ../compass/sass/style.scss */
+/* line 146, ../compass/sass/style.scss */
 .tri-panels {
   color: #424242;
   margin: 0 auto;
   display: block;
 }
-/* line 153, ../compass/sass/style.scss */
+/* line 150, ../compass/sass/style.scss */
 .tri-panels .panel {
   margin: 0 auto;
   width: 25em;
   text-align: center;
 }
 @media (min-width: 960px) {
-  /* line 153, ../compass/sass/style.scss */
+  /* line 150, ../compass/sass/style.scss */
   .tri-panels .panel {
     float: left;
+    padding: 1em;
   }
 }
+/* line 159, ../compass/sass/style.scss */
+.tri-panels .divider {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #cacaca;
+  margin-bottom: 3em;
+}
 @media (min-width: 960px) {
-  /* line 161, ../compass/sass/style.scss */
+  /* line 159, ../compass/sass/style.scss */
   .tri-panels .divider {
+    border-bottom-style: none;
     border-right-style: solid;
     border-right-width: 1px;
     border-right-color: #cacaca;
   }
 }
-/* line 168, ../compass/sass/style.scss */
+/* line 171, ../compass/sass/style.scss */
+.tri-panels i {
+  font-size: 5em;
+}
+/* line 174, ../compass/sass/style.scss */
 .tri-panels p {
   font-size: 1.5em;
 }
 @media (min-width: 960px) {
-  /* line 149, ../compass/sass/style.scss */
+  /* line 146, ../compass/sass/style.scss */
   .tri-panels {
     display: table;
   }
 }
 
+/* line 182, ../compass/sass/style.scss */
+.premium {
+  background-color: #4499EE;
+  color: #ECECEC;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2em;
+  max-width: 960px;
+  margin-bottom: 4em;
+}
+/* line 190, ../compass/sass/style.scss */
+.premium h1 {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-top: 0;
+  padding-top: 1em;
+  margin-bottom: 0em;
+}
+/* line 197, ../compass/sass/style.scss */
+.premium h3 {
+  font-size: 1em;
+  font-weight: 300;
+  margin-bottom: 0;
+  padding-bottom: 1em;
+  margin-top: 0em;
+}
+
+/* line 206, ../compass/sass/style.scss */
+.footer {
+  height: 5em;
+  background-color: red;
+}
+
 /* Login Page */
-/* line 177, ../compass/sass/style.scss */
+/* line 212, ../compass/sass/style.scss */
 .main-login {
   width: 100%;
   font-size: 12px;
 }
 
-/* line 182, ../compass/sass/style.scss */
+/* line 217, ../compass/sass/style.scss */
 .login-space {
   padding-top: 10em;
 }
 
-/* line 186, ../compass/sass/style.scss */
+/* line 221, ../compass/sass/style.scss */
 .login-portion {
   background-color: #ffffff;
   max-width: 40em;
@@ -259,18 +300,18 @@ body {
   padding: 3em;
   border-radius: 15px;
 }
-/* line 192, ../compass/sass/style.scss */
+/* line 227, ../compass/sass/style.scss */
 .login-portion .logo-login {
   margin: 0 auto;
   width: 300px;
   height: 150px;
 }
-/* line 197, ../compass/sass/style.scss */
+/* line 232, ../compass/sass/style.scss */
 .login-portion img {
   max-width: 100%;
   max-height: 100%;
 }
-/* line 201, ../compass/sass/style.scss */
+/* line 236, ../compass/sass/style.scss */
 .login-portion h1 {
   margin-bottom: 0.25em;
   text-align: center;
@@ -279,25 +320,25 @@ body {
   font-weight: 400;
 }
 @media (min-width: 640px) {
-  /* line 201, ../compass/sass/style.scss */
+  /* line 236, ../compass/sass/style.scss */
   .login-portion h1 {
     font-size: 2.5em;
   }
 }
 @media (min-width: 960px) {
-  /* line 201, ../compass/sass/style.scss */
+  /* line 236, ../compass/sass/style.scss */
   .login-portion h1 {
     font-size: 3em;
   }
 }
-/* line 214, ../compass/sass/style.scss */
+/* line 249, ../compass/sass/style.scss */
 .login-portion p {
   margin-top: 0em;
   text-align: center;
   font-size: 1.5em;
   font-weight: 300;
 }
-/* line 220, ../compass/sass/style.scss */
+/* line 255, ../compass/sass/style.scss */
 .login-portion .password {
   background-color: #F2F2F2;
   border-style: none;
@@ -307,15 +348,15 @@ body {
   -webkit-border-top-left-radius: 5px;
   -webkit-border-bottom-left-radius: 5px;
 }
-/* line 230, ../compass/sass/style.scss */
+/* line 265, ../compass/sass/style.scss */
 .login-portion .password:focus {
   outline: none;
 }
-/* line 231, ../compass/sass/style.scss */
+/* line 266, ../compass/sass/style.scss */
 .login-portion .enter:focus {
   outline: none;
 }
-/* line 233, ../compass/sass/style.scss */
+/* line 268, ../compass/sass/style.scss */
 .login-portion .enter {
   cursor: pointer;
   background-color: #4499EE;
@@ -330,7 +371,7 @@ body {
   -webkit-border-top-right-radius: 10px;
   -webkit-border-bottom-right-radius: 10px;
 }
-/* line 247, ../compass/sass/style.scss */
+/* line 282, ../compass/sass/style.scss */
 .login-portion .enter:hover {
   background-color: #44AAFF;
   -webkit-transition: all 500ms ease;
@@ -339,11 +380,11 @@ body {
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-/* line 255, ../compass/sass/style.scss */
+/* line 290, ../compass/sass/style.scss */
 .login-portion .enter:active {
   background-color: #4499DD;
 }
-/* line 258, ../compass/sass/style.scss */
+/* line 293, ../compass/sass/style.scss */
 .login-portion form {
   margin: 0 auto;
   display: table;

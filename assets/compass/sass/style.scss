@@ -118,7 +118,7 @@ body {
 	.center-attention {
 		margin: 0 auto;
 		padding: 1em;
-		max-width: 400px;
+		max-width: 960px;
 		color: #424242;
 		@media (min-width: 640px) {
 			margin: 0 auto;
@@ -127,13 +127,12 @@ body {
 		}
 		@media (min-width: 960px) {
 			margin-bottom: 6em;
-			max-width: 500px;
 		}
 		h1 {
 			margin-bottom: 0em;
-			text-align: left;
+			text-align: center;
 			font-size: 2em;
-			font-weight: 900;
+			font-weight: 300;
 			@media (min-width: 640px) {
 				font-size: 2.5em;
 			}
@@ -141,11 +140,9 @@ body {
 				font-size: 3em;
 			}
 		}
-		p {
-			font-size: 1.5em;
-		}
 	}
 }
+
 .tri-panels {
 	color: #424242;
 	margin: 0 auto;
@@ -156,14 +153,23 @@ body {
 		text-align: center;
 		@media (min-width: 960px) {
 			float: left;
+			padding: 1em;
 		}
 	}
 	.divider {
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-bottom-color: #cacaca;
+		margin-bottom: 3em;
 		@media (min-width: 960px) {
+			border-bottom-style: none;
 			border-right-style: solid;
 			border-right-width: 1px;
 			border-right-color: #cacaca;
 		}
+	}
+	i {
+		font-size: 5em;
 	}
 	p {
 		font-size: 1.5em;
@@ -171,6 +177,35 @@ body {
 	@media (min-width: 960px) {
 		display: table;
 	}
+}
+
+.premium {
+	background-color: #4499EE;
+	color: #ECECEC;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 2em;
+	max-width: 960px;
+	margin-bottom: 4em;
+	h1 {
+		font-size: 1.5em;
+		font-weight: 400;
+		margin-top: 0;
+		padding-top: 1em;
+		margin-bottom: 0em;
+	}
+	h3 {
+		font-size: 1em;
+		font-weight: 300;
+		margin-bottom: 0;
+		padding-bottom: 1em;
+		margin-top: 0em;
+	}
+}
+
+.footer {
+	height: 5em;
+	background-color: red;
 }
 
 /* Login Page */
