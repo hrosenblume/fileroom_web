@@ -351,6 +351,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 203, ../compass/sass/style.scss */
 .login-portion .password:focus {
   outline: none;
@@ -385,6 +386,17 @@ body {
 =======
 /* line 266, ../compass/sass/style.scss */
 >>>>>>> 7036224... Merged stephens changes
+=======
+/* line 265, ../compass/sass/style.scss */
+.login-portion .password:focus {
+  outline: none;
+}
+/* line 266, ../compass/sass/style.scss */
+.login-portion .enter:focus {
+  outline: none;
+}
+/* line 268, ../compass/sass/style.scss */
+>>>>>>> 9baed33... Added images.
 .login-portion .enter {
   cursor: pointer;
   background-color: #4499EE;
@@ -402,6 +414,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 219, ../compass/sass/style.scss */
 =======
 /* line 247, ../compass/sass/style.scss */
@@ -412,6 +425,9 @@ body {
 =======
 /* line 280, ../compass/sass/style.scss */
 >>>>>>> 7036224... Merged stephens changes
+=======
+/* line 282, ../compass/sass/style.scss */
+>>>>>>> 9baed33... Added images.
 .login-portion .enter:hover {
   background-color: #44AAFF;
   -webkit-transition: all 500ms ease;
@@ -420,6 +436,7 @@ body {
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -449,6 +466,13 @@ body {
 }
 /* line 291, ../compass/sass/style.scss */
 >>>>>>> 7036224... Merged stephens changes
+=======
+/* line 290, ../compass/sass/style.scss */
+.login-portion .enter:active {
+  background-color: #4499DD;
+}
+/* line 293, ../compass/sass/style.scss */
+>>>>>>> 9baed33... Added images.
 .login-portion form {
   margin: 0 auto;
   display: table;
