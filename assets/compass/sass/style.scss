@@ -1,0 +1,237 @@
+@import 'compass/css3';
+
+@mixin circle($radius) {
+	border: 3px solid #fcfcfc;
+	border-radius: 50%;
+	width: $radius;
+	height: $radius;
+}
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.main {
+	width: 100%;
+	font-size: 12px;
+}
+
+.homepage-header {
+	/*background-color: #4499ee;*/
+	background: url(../images/blue.png) repeat center center;
+	h1 {
+		color: #fcfcfc;
+		font-size: 3.5em;
+		font-weight: 400;
+		text-align: center;
+		margin: 0;
+		@media (min-width: 640px) {
+			font-size: 5em;
+		}
+		@media (min-width: 960px) {
+			font-size: 7em;
+		}
+		span {
+			font-weight: 900;
+		}
+	}
+	.center-attention {
+		margin: 0 auto;
+		max-width: 80em;
+	}
+	.logo {
+		margin: 0 auto;
+		width: 200px; 
+		height: 100px;
+		@media (min-width: 640px) {
+			width: 300px; 
+			height: 150px;
+		}
+		@media (min-width: 960px) {
+			width: 400px; 
+			height: 200px;
+		}
+		img {
+			max-width:100%; 
+			max-height:100%;
+		}
+	}
+	.height-filler {
+		height: 5em;
+		position: relative;
+		@media (min-width: 640px) {
+			height: 13em;
+		}
+		@media (min-width: 960px) {
+			height: 15em;
+		}
+		.circle {
+			display: none;
+			position: absolute;
+			@media (min-width: 640px) {
+				@include circle(10em);
+				display: inherit;
+			}
+			@media (min-width: 960px) {
+				@include circle(12em);
+			}
+		}
+		.left-panel {
+			width: 50%;
+			float: left;
+			position: relative;
+			.circle {
+				background:url(../images/documents12_360.png) no-repeat center center;
+				background-size: 6em 6em;
+				right: 15em;
+				@media (min-width: 960px) {
+					right: 20em;
+				}
+			}
+		}
+		.right-panel {
+			width: 50%;
+			float: right;
+			position: relative;
+			.circle {
+				background:url(../images/dining3_360.png) no-repeat center center;
+				background-size: 8em 8em;
+				left: 15em;
+				@media (min-width: 960px) {
+					left: 20em;
+				}
+			}
+		}
+		.learn-more {
+			color: #fcfcfc;
+			text-align: center;
+			font-size: 1em;
+			width: 100%;
+			position: absolute; 
+			bottom: 0;
+		}
+	}
+}
+
+.content {
+	.center-attention {
+		margin: 0 auto;
+		padding: 1em;
+		max-width: 400px;
+		color: #424242;
+		@media (min-width: 640px) {
+			margin: 0 auto;
+			margin-top: 3em;
+			margin-bottom: 3em;
+		}
+		@media (min-width: 960px) {
+			margin-bottom: 6em;
+			max-width: 500px;
+		}
+		h1 {
+			margin-bottom: 0em;
+			text-align: left;
+			font-size: 2em;
+			font-weight: 900;
+			@media (min-width: 640px) {
+				font-size: 2.5em;
+			}
+			@media (min-width: 960px) {
+				font-size: 3em;
+			}
+		}
+		p {
+			font-size: 1.5em;
+		}
+	}
+}
+
+/* Login Page */
+.main-login {
+	width: 100%;
+	font-size: 12px;
+}
+
+.login-space {
+	padding-top: 10em;
+}
+
+.login-portion {
+	background-color: #ffffff;
+	max-width: 40em;
+	margin: 0 auto;
+	padding: 3em;
+	border-radius: 15px;
+	.logo-login {
+		margin: 0 auto;
+		width: 300px; 
+		height: 150px;
+	}
+	img {
+		max-width:100%; 
+		max-height:100%;
+	}
+	h1 {
+		margin-bottom: 0.25em;
+		text-align: center;
+		font-size: 2em;
+		line-height: 1em;
+		font-weight: 400;
+		@media (min-width: 640px) {
+			font-size: 2.5em;
+		}
+		@media (min-width: 960px) {
+			font-size: 3em;
+		}
+	}
+	p {
+		margin-top: 0em;
+		text-align: center;
+		font-size: 1.5em;
+		font-weight: 300;
+	}
+	.password {
+		background-color: #F2F2F2;
+		border-style: none;
+		padding: 10px;
+		-moz-border-radius-topleft: 5px;
+		-moz-border-radius-bottomleft: 5px;
+		-webkit-border-top-left-radius: 5px;
+		-webkit-border-bottom-left-radius: 5px;
+	}
+
+	.password:focus {outline: none;}
+	.enter:focus {outline: none;}
+
+	.enter {
+		cursor:pointer;
+		background-color: #4499EE;
+		color: #ECECEC;
+		border-style: none;
+		margin-left: -.5em;
+		padding: 10px;
+		padding-right: 20px;
+		padding-left: 20px;
+		-moz-border-radius-topright: 10px;
+		-moz-border-radius-bottomright: 10px;
+		-webkit-border-top-right-radius: 10px;
+		-webkit-border-bottom-right-radius: 10px;
+	}
+	.enter:hover {
+		background-color: #44AAFF;
+		-webkit-transition: all 500ms ease;
+		-moz-transition: all 500ms ease;
+		-ms-transition: all 500ms ease;
+		-o-transition: all 500ms ease;
+		transition: all 500ms ease;
+	}
+	.enter:active {
+		background-color: #4499DD;
+	}
+	form{
+	   margin: 0 auto;
+	   display: table;
+	   margin-top: 1em;
+	}
+}
