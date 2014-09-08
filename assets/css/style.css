@@ -277,22 +277,29 @@ body {
 /* line 206, ../compass/sass/style.scss */
 .footer {
   height: 5em;
+  background-color: #C7C7C7;
+  color: #424242;
+  text-decoration: none;
   background-color: red;
+}
+/* line 211, ../compass/sass/style.scss */
+.footer a:link, .footer a:visited, .footer a:hover {
+  color: #4499EE;
 }
 
 /* Login Page */
-/* line 212, ../compass/sass/style.scss */
+/* line 218, ../compass/sass/style.scss */
 .main-login {
   width: 100%;
   font-size: 12px;
 }
 
-/* line 217, ../compass/sass/style.scss */
+/* line 223, ../compass/sass/style.scss */
 .login-space {
   padding-top: 10em;
 }
 
-/* line 221, ../compass/sass/style.scss */
+/* line 227, ../compass/sass/style.scss */
 .login-portion {
   background-color: #ffffff;
   max-width: 40em;
@@ -300,18 +307,18 @@ body {
   padding: 3em;
   border-radius: 15px;
 }
-/* line 227, ../compass/sass/style.scss */
+/* line 233, ../compass/sass/style.scss */
 .login-portion .logo-login {
   margin: 0 auto;
   width: 300px;
   height: 150px;
 }
-/* line 232, ../compass/sass/style.scss */
+/* line 238, ../compass/sass/style.scss */
 .login-portion img {
   max-width: 100%;
   max-height: 100%;
 }
-/* line 236, ../compass/sass/style.scss */
+/* line 242, ../compass/sass/style.scss */
 .login-portion h1 {
   margin-bottom: 0.25em;
   text-align: center;
@@ -320,25 +327,25 @@ body {
   font-weight: 400;
 }
 @media (min-width: 640px) {
-  /* line 236, ../compass/sass/style.scss */
+  /* line 242, ../compass/sass/style.scss */
   .login-portion h1 {
     font-size: 2.5em;
   }
 }
 @media (min-width: 960px) {
-  /* line 236, ../compass/sass/style.scss */
+  /* line 242, ../compass/sass/style.scss */
   .login-portion h1 {
     font-size: 3em;
   }
 }
-/* line 249, ../compass/sass/style.scss */
+/* line 255, ../compass/sass/style.scss */
 .login-portion p {
   margin-top: 0em;
   text-align: center;
   font-size: 1.5em;
   font-weight: 300;
 }
-/* line 255, ../compass/sass/style.scss */
+/* line 261, ../compass/sass/style.scss */
 .login-portion .password {
   background-color: #F2F2F2;
   border-style: none;
@@ -348,55 +355,15 @@ body {
   -webkit-border-top-left-radius: 5px;
   -webkit-border-bottom-left-radius: 5px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 203, ../compass/sass/style.scss */
+/* line 270, ../compass/sass/style.scss */
 .login-portion .password:focus {
   outline: none;
 }
-/* line 204, ../compass/sass/style.scss */
+/* line 271, ../compass/sass/style.scss */
 .login-portion .enter:focus {
   outline: none;
 }
-/* line 205, ../compass/sass/style.scss */
-=======
-/* line 230, ../compass/sass/style.scss */
-=======
-/* line 265, ../compass/sass/style.scss */
->>>>>>> bb9deeb... These homies are ready for boobies
-=======
-/* line 264, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
-.login-portion .password:focus {
-  outline: none;
-}
-/* line 265, ../compass/sass/style.scss */
-.login-portion .enter:focus {
-  outline: none;
-}
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 233, ../compass/sass/style.scss */
->>>>>>> 03395ee... Fixed tri-panel centering and added dividers.
-=======
-/* line 268, ../compass/sass/style.scss */
->>>>>>> bb9deeb... These homies are ready for boobies
-=======
-/* line 266, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
-=======
-/* line 265, ../compass/sass/style.scss */
-.login-portion .password:focus {
-  outline: none;
-}
-/* line 266, ../compass/sass/style.scss */
-.login-portion .enter:focus {
-  outline: none;
-}
-/* line 268, ../compass/sass/style.scss */
->>>>>>> 9baed33... Added images.
+/* line 272, ../compass/sass/style.scss */
 .login-portion .enter {
   cursor: pointer;
   background-color: #4499EE;
@@ -411,23 +378,7 @@ body {
   -webkit-border-top-right-radius: 10px;
   -webkit-border-bottom-right-radius: 10px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 219, ../compass/sass/style.scss */
-=======
-/* line 247, ../compass/sass/style.scss */
->>>>>>> 03395ee... Fixed tri-panel centering and added dividers.
-=======
-/* line 282, ../compass/sass/style.scss */
->>>>>>> bb9deeb... These homies are ready for boobies
-=======
-/* line 280, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
-=======
-/* line 282, ../compass/sass/style.scss */
->>>>>>> 9baed33... Added images.
+/* line 286, ../compass/sass/style.scss */
 .login-portion .enter:hover {
   background-color: #44AAFF;
   -webkit-transition: all 500ms ease;
@@ -436,43 +387,11 @@ body {
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 227, ../compass/sass/style.scss */
+/* line 294, ../compass/sass/style.scss */
 .login-portion .enter:active {
   background-color: #4499DD;
 }
-/* line 230, ../compass/sass/style.scss */
-=======
-/* line 255, ../compass/sass/style.scss */
-.login-portion .enter:active {
-  background-color: #4499DD;
-}
-/* line 258, ../compass/sass/style.scss */
->>>>>>> 03395ee... Fixed tri-panel centering and added dividers.
-=======
-/* line 290, ../compass/sass/style.scss */
-.login-portion .enter:active {
-  background-color: #4499DD;
-}
-/* line 293, ../compass/sass/style.scss */
->>>>>>> bb9deeb... These homies are ready for boobies
-=======
-/* line 288, ../compass/sass/style.scss */
-.login-portion .enter:active {
-  background-color: #4499DD;
-}
-/* line 291, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
-=======
-/* line 290, ../compass/sass/style.scss */
-.login-portion .enter:active {
-  background-color: #4499DD;
-}
-/* line 293, ../compass/sass/style.scss */
->>>>>>> 9baed33... Added images.
+/* line 297, ../compass/sass/style.scss */
 .login-portion form {
   margin: 0 auto;
   display: table;
@@ -480,21 +399,13 @@ body {
 }
 
 /* FileRoom Page */
-<<<<<<< HEAD
-/* line 238, ../compass/sass/style.scss */
-=======
-/* line 299, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
+/* line 306, ../compass/sass/style.scss */
 .sidebar-fileroom {
   width: 20em;
   position: fixed;
   padding-top: 4em;
 }
-<<<<<<< HEAD
-/* line 242, ../compass/sass/style.scss */
-=======
-/* line 303, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
+/* line 310, ../compass/sass/style.scss */
 .sidebar-fileroom .sidebar-fill-fileroom {
   border-radius: 0.5em;
   padding-top: 2em;
@@ -502,30 +413,18 @@ body {
   margin: 0 auto;
   background: url(../images/grey.png) repeat center center;
 }
-<<<<<<< HEAD
-/* line 248, ../compass/sass/style.scss */
-=======
-/* line 309, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
+/* line 316, ../compass/sass/style.scss */
 .sidebar-fileroom .sidebar-fill-fileroom .logo {
   margin: 0 auto;
   width: 10em;
   height: 5em;
 }
-<<<<<<< HEAD
-/* line 252, ../compass/sass/style.scss */
-=======
-/* line 313, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
+/* line 320, ../compass/sass/style.scss */
 .sidebar-fileroom .sidebar-fill-fileroom .logo img {
   max-width: 100%;
   max-height: 100%;
 }
-<<<<<<< HEAD
-/* line 257, ../compass/sass/style.scss */
-=======
-/* line 318, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
+/* line 325, ../compass/sass/style.scss */
 .sidebar-fileroom .sidebar-fill-fileroom .url {
   background-color: #F2F2F2;
   border-style: none;
@@ -535,27 +434,15 @@ body {
   -webkit-border-top-left-radius: 5px;
   -webkit-border-bottom-left-radius: 5px;
 }
-<<<<<<< HEAD
-/* line 266, ../compass/sass/style.scss */
+/* line 334, ../compass/sass/style.scss */
 .sidebar-fileroom .sidebar-fill-fileroom .url:focus {
   outline: none;
 }
-/* line 267, ../compass/sass/style.scss */
+/* line 335, ../compass/sass/style.scss */
 .sidebar-fileroom .sidebar-fill-fileroom .enter:focus {
   outline: none;
 }
-/* line 268, ../compass/sass/style.scss */
-=======
-/* line 327, ../compass/sass/style.scss */
-.sidebar-fileroom .sidebar-fill-fileroom .url:focus {
-  outline: none;
-}
-/* line 328, ../compass/sass/style.scss */
-.sidebar-fileroom .sidebar-fill-fileroom .enter:focus {
-  outline: none;
-}
-/* line 329, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
+/* line 336, ../compass/sass/style.scss */
 .sidebar-fileroom .sidebar-fill-fileroom .enter {
   cursor: pointer;
   background-color: #4499EE;
@@ -575,11 +462,7 @@ body {
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-<<<<<<< HEAD
-/* line 287, ../compass/sass/style.scss */
-=======
-/* line 348, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
+/* line 355, ../compass/sass/style.scss */
 .sidebar-fileroom .sidebar-fill-fileroom .enter:hover {
   background-color: #44AAFF;
   -webkit-transition: all 500ms ease;
@@ -588,37 +471,21 @@ body {
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-<<<<<<< HEAD
-/* line 295, ../compass/sass/style.scss */
+/* line 363, ../compass/sass/style.scss */
 .sidebar-fileroom .sidebar-fill-fileroom .enter:active {
   background-color: #4499DD;
 }
-/* line 298, ../compass/sass/style.scss */
-=======
-/* line 356, ../compass/sass/style.scss */
-.sidebar-fileroom .sidebar-fill-fileroom .enter:active {
-  background-color: #4499DD;
-}
-/* line 359, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
+/* line 366, ../compass/sass/style.scss */
 .sidebar-fileroom .sidebar-fill-fileroom form {
   margin: 0 auto;
   display: table;
   margin-top: 1em;
 }
-<<<<<<< HEAD
-/* line 303, ../compass/sass/style.scss */
+/* line 371, ../compass/sass/style.scss */
 .sidebar-fileroom .sidebar-fill-fileroom .fa-input {
   font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-/* line 306, ../compass/sass/style.scss */
-=======
-/* line 364, ../compass/sass/style.scss */
-.sidebar-fileroom .sidebar-fill-fileroom .fa-input {
-  font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-/* line 367, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
+/* line 374, ../compass/sass/style.scss */
 .sidebar-fileroom .sidebar-fill-fileroom h1 {
   color: #424242;
   font-size: 2em;
@@ -626,19 +493,11 @@ body {
   text-align: center;
   margin: 0;
 }
-<<<<<<< HEAD
-/* line 312, ../compass/sass/style.scss */
+/* line 380, ../compass/sass/style.scss */
 .sidebar-fileroom .sidebar-fill-fileroom h1 span {
   font-weight: 900;
 }
-/* line 316, ../compass/sass/style.scss */
-=======
-/* line 373, ../compass/sass/style.scss */
-.sidebar-fileroom .sidebar-fill-fileroom h1 span {
-  font-weight: 900;
-}
-/* line 377, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
+/* line 384, ../compass/sass/style.scss */
 .sidebar-fileroom .sidebar-fill-fileroom .pill-button-fileroom {
   margin: 0 auto;
   display: table;
@@ -659,11 +518,7 @@ body {
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-<<<<<<< HEAD
-/* line 336, ../compass/sass/style.scss */
-=======
-/* line 397, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
+/* line 404, ../compass/sass/style.scss */
 .sidebar-fileroom .sidebar-fill-fileroom .pill-button-fileroom:hover {
   background-color: #44AAFF;
   border-color: #44AAFF;
@@ -674,21 +529,13 @@ body {
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
-<<<<<<< HEAD
-/* line 346, ../compass/sass/style.scss */
-=======
-/* line 407, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
+/* line 414, ../compass/sass/style.scss */
 .sidebar-fileroom .sidebar-fill-fileroom .pill-button-fileroom:active {
   background-color: #4499DD;
   border-color: #4499DD;
 }
 
-<<<<<<< HEAD
-/* line 353, ../compass/sass/style.scss */
-=======
-/* line 414, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
+/* line 421, ../compass/sass/style.scss */
 .files-fileroom {
   left: 20em;
   width: 100%;
@@ -699,87 +546,48 @@ body {
   padding-top: 4em;
   color: #424242;
 }
-<<<<<<< HEAD
-/* line 362, ../compass/sass/style.scss */
+/* line 430, ../compass/sass/style.scss */
 .files-fileroom .inline {
   float: left;
 }
-/* line 364, ../compass/sass/style.scss */
+/* line 432, ../compass/sass/style.scss */
 .files-fileroom .inline h2 {
   margin: 0;
 }
-/* line 368, ../compass/sass/style.scss */
-=======
-/* line 423, ../compass/sass/style.scss */
-.files-fileroom .inline {
-  float: left;
-}
-/* line 425, ../compass/sass/style.scss */
-.files-fileroom .inline h2 {
-  margin: 0;
-}
-/* line 429, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
+/* line 436, ../compass/sass/style.scss */
 .files-fileroom .files-header-fileroom {
   height: 2em;
   clear: both;
 }
-<<<<<<< HEAD
-/* line 372, ../compass/sass/style.scss */
+/* line 440, ../compass/sass/style.scss */
 .files-fileroom .files-filename-fileroom {
   width: 12em;
 }
-/* line 375, ../compass/sass/style.scss */
+/* line 443, ../compass/sass/style.scss */
 .files-fileroom .files-type-fileroom {
   width: 10em;
 }
-/* line 378, ../compass/sass/style.scss */
+/* line 446, ../compass/sass/style.scss */
 .files-fileroom .files-size-fileroom {
   width: 8em;
 }
-/* line 381, ../compass/sass/style.scss */
+/* line 449, ../compass/sass/style.scss */
 .files-fileroom .files-author-fileroom {
   width: 10em;
 }
-/* line 384, ../compass/sass/style.scss */
+/* line 452, ../compass/sass/style.scss */
 .files-fileroom .files-status-fileroom {
   width: 12em;
 }
-/* line 387, ../compass/sass/style.scss */
-=======
-/* line 433, ../compass/sass/style.scss */
-.files-fileroom .files-filename-fileroom {
-  width: 12em;
-}
-/* line 436, ../compass/sass/style.scss */
-.files-fileroom .files-type-fileroom {
-  width: 10em;
-}
-/* line 439, ../compass/sass/style.scss */
-.files-fileroom .files-size-fileroom {
-  width: 8em;
-}
-/* line 442, ../compass/sass/style.scss */
-.files-fileroom .files-author-fileroom {
-  width: 10em;
-}
-/* line 445, ../compass/sass/style.scss */
-.files-fileroom .files-status-fileroom {
-  width: 12em;
-}
-/* line 448, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
+/* line 455, ../compass/sass/style.scss */
 .files-fileroom .files-delete-fileroom {
   width: 3em;
   clear: right;
 }
-<<<<<<< HEAD
-/* line 391, ../compass/sass/style.scss */
-=======
-/* line 452, ../compass/sass/style.scss */
->>>>>>> 7036224... Merged stephens changes
+/* line 459, ../compass/sass/style.scss */
 .files-fileroom .files-entry-fileroom {
   border-color: #DDDDDD;
   border-top-style: solid;
   border-top-width: 1px;
+  clear: left;
 }
